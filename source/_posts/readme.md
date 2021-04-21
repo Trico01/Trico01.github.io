@@ -7,10 +7,6 @@ tags:
 这里是Trico的个人博客，用于收纳笔记以及随笔。
 
 
-图片测试：
-
-![image-20210421142545814](C:\Users\think\AppData\Roaming\Typora\typora-user-images\image-20210421142545814.png)
-
 {% note info 待完善 %}
 
 * 鼠标点击动画（gulp编译原理）
