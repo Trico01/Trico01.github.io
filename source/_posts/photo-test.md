@@ -5,4 +5,5 @@ tags:
 - test
 ---
 正在听的歌...
-![](test.jpg)
+<!-- ![](_posts/photo-test/test.jpg) -->
+{% asset_img test.jpg This is an test image %}
