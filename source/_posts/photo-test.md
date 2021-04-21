@@ -5,4 +5,4 @@ tags:
 - test
 ---
 正在听的歌...
-![](photo-test/testt.png)
+![](test.jpg)
