@@ -25,27 +25,27 @@
     <!-- meta -->
 
 
-<title>readme | Trico&#39;s Blog</title>
+<title>hexo安装 | Trico&#39;s Blog</title>
 
 
-    <meta name="keywords" content="readme">
+    <meta name="keywords" content="note">
 
 
 
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="这里是Trico的个人博客，用于收纳笔记以及随笔。 待完善 鼠标点击动画（gulp编译原理） 附加功能（流量统计&#x2F;评论等） 图标">
+    <meta name="description" content="基本安装方法在hexo及主题的文档里说的已经很清晰了，非常好用，难度不大。 安装步骤：按照hexo文档建站-&gt;修改基本配置-&gt;按照theme的文档进行安装、修改-&gt;按照hexo文档部署到github page。 主要说明以下问题：  本地运行启动Hexo Server进行本地预览时，在站点根目录执行下述命令1hexo s --debug 其中--debug参数不加也行，加了能看到">
 <meta property="og:type" content="article">
-<meta property="og:title" content="readme">
-<meta property="og:url" content="http://trico01.github.io/2021/04/21/readme/index.html">
+<meta property="og:title" content="hexo安装">
+<meta property="og:url" content="http://trico01.github.io/2021/04/22/hexo%E5%AE%89%E8%A3%85/index.html">
 <meta property="og:site_name" content="Trico&#39;s Blog">
-<meta property="og:description" content="这里是Trico的个人博客，用于收纳笔记以及随笔。 待完善 鼠标点击动画（gulp编译原理） 附加功能（流量统计&#x2F;评论等） 图标">
+<meta property="og:description" content="基本安装方法在hexo及主题的文档里说的已经很清晰了，非常好用，难度不大。 安装步骤：按照hexo文档建站-&gt;修改基本配置-&gt;按照theme的文档进行安装、修改-&gt;按照hexo文档部署到github page。 主要说明以下问题：  本地运行启动Hexo Server进行本地预览时，在站点根目录执行下述命令1hexo s --debug 其中--debug参数不加也行，加了能看到">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-04-21T13:51:04.000Z">
+<meta property="article:published_time" content="2021-04-22T09:45:03.000Z">
 <meta property="article:modified_time" content="2021-04-22T02:33:02.884Z">
 <meta property="article:author" content="Trico">
-<meta property="article:tag" content="readme">
+<meta property="article:tag" content="note">
 <meta name="twitter:card" content="summary_large_image">
 
 
@@ -138,10 +138,10 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        readme
+        hexo安装
     </h1>
     <div class="post-title__meta">
-        <a href="/archives/2021/04/" class="post-meta__date button">2021-04-21</a>
+        <a href="/archives/2021/04/" class="post-meta__date button">2021-04-22</a>
         
  
         
@@ -160,44 +160,49 @@
 <article class="post content-card">
     <div class="post__header"></div>
     <div class="post__content">
-        <p>这里是Trico的个人博客，用于收纳笔记以及随笔。</p>
-<blockquote class="blockquote-note blockquote-note__info"><div class="blockquote-note__header"><div class="blockquote-note__icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewbox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"/></svg></div>待完善</div><div class="blockquote-note__content"><ul>
-<li>鼠标点击动画（gulp编译原理）</li>
-<li>附加功能（流量统计/评论等）</li>
-<li>图标</li>
+        <p>基本安装方法在hexo及主题的文档里说的已经很清晰了，非常好用，难度不大。</p>
+<p><strong>安装步骤：</strong><br>按照hexo文档建站-&gt;修改基本配置-&gt;按照theme的文档进行安装、修改-&gt;按照hexo文档部署到github page。</p>
+<p><strong>主要说明以下问题：</strong></p>
+<ol>
+<li>本地运行<br>启动Hexo Server进行本地预览时，在站点根目录执行下述命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s --debug</span><br></pre></td></tr></table></figure>
+其中<code>--debug</code>参数不加也行，加了能看到详细信息，但用处不大（我几乎没用上），跑的还慢。</li>
+<li>部署到github page<br>在hexo文档中写的很详细。使用git（我用的是fork，但现在好像付费了）推送站点文件夹即可。每次更改文件后网页更新得很慢，大概3~5min，如果网页没有立即变化的话也不要担心。</li>
+<li>图片上传<br>使用hexo-asset-image组件。很奇怪的是在node_modules里虽然有该组件，但文件里写的东西跟图片上传驴唇不对马嘴（反正我看不懂），所以重新安装一下：<br>站点根目录执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https:&#x2F;&#x2F;github.com&#x2F;CodeFalling&#x2F;hexo-asset-image -- save</span><br></pre></td></tr></table></figure>
+更改站点配置文件_config.yml中<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
+此时用<code>hexo new &quot;&lt;文章名&gt;&quot;</code>新建文章后，在_posts下会出现同名的文件夹和.md文件，将欲上传的图片放在文件夹下，在.md中使用<code>![&lt;图片标注&gt;](&lt;图片名称&gt;.jpg)</code>即可上传。</li>
+</ol>
+<p><strong>踩过的坑：</strong></p>
+<ul>
+<li>安装组件时一定要挂上vpn，而且是全局模式！因为用了跳过中国节点找了一下午的bug…</li>
+<li>组件文档里说的<code>npm install hexo-asset-image --save</code>并不好使，应该是版本有更新过。</li>
 </ul>
-</div></blockquote>
-
-<!-- info、important、tip、caution、warning -->
-
-
 
     </div>
      
     <div class="post-footer__meta"><p>更新于 2021-04-22</p></div> 
-    <div class="post-meta__cats"><a href="/tags/readme/" class="post-tags__link button"># readme</a></div> 
+    <div class="post-meta__cats"><a href="/tags/note/" class="post-tags__link button"># note</a></div> 
 </article>
 
 
     <div class="nav">
         <div class="nav__prev">
             
+        </div>
+        <div class="nav__next">
+            
                 <a href="/2021/04/21/photo-test/" class="nav__link">
                     <div>
-                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
-                    </div>
-                    <div>
                         <div class="nav__label">
-                            Previous Post
+                            Next Post
                         </div>
                         <div class="nav__title">
                             photo_test
                         </div>
                     </div>
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
+                    </div>
                 </a>
-            
-        </div>
-        <div class="nav__next">
             
         </div>
     </div>
