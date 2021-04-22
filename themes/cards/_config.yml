@@ -14,9 +14,9 @@ head:
   
   # 网站图标
   favicon:
-    ico: 
-    small: 
-    medium: 
+    ico:
+    small:
+    medium: /images/32.png
     apple_touch_icon: 
     safari_pinned_tab: 
   
