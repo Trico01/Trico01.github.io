@@ -29,6 +29,8 @@ npm install https://github.com/CodeFalling/hexo-asset-image -- save
 post_asset_folder: true
 ```
 此时用`hexo new "<文章名>"`新建文章后，在_posts下会出现同名的文件夹和.md文件，将欲上传的图片放在文件夹下，在.md中使用`![<图片标注>](<图片名称>.jpg)`即可上传。
+4. 网站图标
+这点在文档里说的并不清晰。应在`theme/cards/source`下新建文件夹`images`，放入格式符合要求的图片，并在主题配置文件中修改favicon。这里只用了medium（要求png格式，大小为32*32）。
 
 **踩过的坑：**
 * 安装组件时一定要挂上vpn，而且是全局模式！因为用了跳过中国节点找了一下午的bug...
